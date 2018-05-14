@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+    <script type="text/javascript">
+      window.addeventasync = function(){
+        addeventatc.settings({
+          appleical  : {show:false, text:"Apple Calendar"},
+          google     : {show:true, text:"Google <em>(online)</em>"},
+          outlook    : {show:false, text:"Outlook"},
+          outlookcom : {show:true, text:"Outlook.com <em>(online)</em>"},
+          yahoo      : {show:true, text:"Yahoo <em>(online)</em>"}
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <h2>Hiding appleical and outlook option</h2>
+    <div title="Add to Calendar" class="addeventatc">
+      Add to Calendar
+      <span class="start">05/28/2018 08:00 AM</span>
+      <span class="end">05/28/2018 08:30 AM</span>
+      <span class="timezone">America/Lima</span>
+      <span class="title">This a AddEvent POC</span>
+      <span class="description">A POC to test AddEvent.com service in http://able.co</span>
+      <span class="location">Able</span>
+    </div>
+  </body>
+</html>
