@@ -21,3 +21,7 @@
 .addeventatc_dropdown .brx 				{display:none;}
 .addeventatc_dropdown .frs 				{position:absolute;top:8px;cursor:pointer;right:13px;padding-left:10px;font-style:normal;font-weight:normal;text-align:right;z-index:101;line-height:110%;background:#fff;text-decoration:none;font-size:10px;color:#cacaca;}
 .addeventatc_dropdown .frs:hover 		{color:#6d84b4;}
+
+.hide {
+  display: none;
+}
